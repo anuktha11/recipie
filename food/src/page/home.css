@@ -1,0 +1,124 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+ height: 80vh;  
+       }
+  
+  
+  .carousel-container img {
+    width: 100%;  
+    display: none;
+  }
+  
+  .carousel-container img.active {
+    display: block;
+    float: left;
+  }
+  
+   @keyframes slide {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }
+  .recipes-container {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    gap: 30px;  
+  }
+  
+  .recipe {
+    border: 1px solid #ccc;  
+    padding: 20px; 
+    border-radius: 10px;  
+  }
+  
+  .recipe img {
+    width: 100%;  
+    border-radius: 5px;  
+  }
+  
+  .recipe h3 {
+    margin-top: 10px;  
+    font-size: 18px;  
+  }
+  .popular{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  /* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-section h2 {
+  font-size: 1.5rem;
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-section .contact {
+  margin-top: 10px;
+}
+
+.footer-section .contact span {
+  display: block;
+}
+
+.footer-section .socials a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.footer-section .socials a:hover {
+  color: #ddd;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #ddd;
+}
+
+.footer-section .text-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
